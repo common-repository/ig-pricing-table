@@ -1,0 +1,328 @@
+# Loco Gettext template
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: IG Pricing Table\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: Wed Aug 26 2015 13:17:02 GMT+0200 (CEST)\n"
+"POT-Revision-Date: Fri Jan 15 2016 17:12:01 GMT+0100 (CET)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#. Name of the plugin
+msgid "IG Pricing Table"
+msgstr ""
+
+#. URI of the plugin
+msgid "http://www.iograficathemes.com/downloads/ig-pricing-table"
+msgstr ""
+
+#. Description of the plugin
+msgid "A responsive and simple way to present your offer to your visitors."
+msgstr ""
+
+#. Author of the plugin
+msgid "iografica"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://www.iograficathemes.com"
+msgstr ""
+
+#: ../includes/ig-pricing-table-form.php:46
+msgid "Active?"
+msgstr ""
+
+#: ../includes/ig-pricing-table-form.php:49
+msgid "Check this option to show the pricing table"
+msgstr ""
+
+#: ../includes/ig-pricing-table-form.php:56
+msgid "Title"
+msgstr ""
+
+#: ../includes/ig-pricing-table-form.php:62
+msgid "Short description"
+msgstr ""
+
+#: ../includes/ig-pricing-table-form.php:71
+msgid "Price"
+msgstr ""
+
+#: ../includes/ig-pricing-table-form.php:80
+msgid "Features"
+msgstr ""
+
+#: ../includes/ig-pricing-table-form.php:85 ../welcome/sections/welcome-intro.php:9
+msgid "Documentation"
+msgstr ""
+
+#: ../includes/ig-pricing-table-form.php:86
+msgid "Write each features one per line"
+msgstr ""
+
+#: ../includes/ig-pricing-table-form.php:87
+msgid "Add images (not recommended)"
+msgstr ""
+
+#: ../includes/ig-pricing-table-form.php:87
+msgid "Add links"
+msgstr ""
+
+#: ../includes/ig-pricing-table-form.php:87
+msgid "Add bold text"
+msgstr ""
+
+#: ../includes/ig-pricing-table-form.php:87
+msgid "Show feature as unavailable"
+msgstr ""
+
+#: ../includes/ig-pricing-table-form.php:94
+msgid "Button label"
+msgstr ""
+
+#: ../includes/ig-pricing-table-form.php:100
+msgid "Button url"
+msgstr ""
+
+#: ../includes/ig-pricing-table-form.php:109
+msgid "Featured"
+msgstr ""
+
+#: ../includes/ig-pricing-table-function.php:14
+msgid "Shortcode"
+msgstr ""
+
+#: ../includes/ig-pricing-table-function.php:39
+msgid "IG Pricing Table First"
+msgstr ""
+
+#: ../includes/ig-pricing-table-function.php:108
+msgid "IG Pricing Table Second"
+msgstr ""
+
+#: ../includes/ig-pricing-table-function.php:176
+msgid "IG Pricing Table Third"
+msgstr ""
+
+#: ../includes/ig-pricing-table-function.php:244
+msgid "IG Pricing Table Fourth"
+msgstr ""
+
+#: ../includes/ig-pricing-table-post-type.php:6
+msgctxt "Post Type General Name"
+msgid "Pricing Tables"
+msgstr ""
+
+#: ../includes/ig-pricing-table-post-type.php:7
+msgctxt "Post Type Singular Name"
+msgid "Pricing Table"
+msgstr ""
+
+#: ../includes/ig-pricing-table-post-type.php:8 ../includes/ig-pricing-table-post-
+#: type.php:9 ../includes/ig-pricing-table-post-type.php:29
+msgid "Pricing Table"
+msgstr ""
+
+#: ../includes/ig-pricing-table-post-type.php:10
+msgid "Parent Pricing Table:"
+msgstr ""
+
+#: ../includes/ig-pricing-table-post-type.php:11
+msgid "All Pricing Tables"
+msgstr ""
+
+#: ../includes/ig-pricing-table-post-type.php:12
+msgid "Add New Pricing Table"
+msgstr ""
+
+#: ../includes/ig-pricing-table-post-type.php:13
+msgid "Add New"
+msgstr ""
+
+#: ../includes/ig-pricing-table-post-type.php:14
+msgid "New Pricing Table"
+msgstr ""
+
+#: ../includes/ig-pricing-table-post-type.php:15
+msgid "Edit Pricing Table"
+msgstr ""
+
+#: ../includes/ig-pricing-table-post-type.php:16
+msgid "Update Pricing Table"
+msgstr ""
+
+#: ../includes/ig-pricing-table-post-type.php:17
+msgid "View Pricing Table"
+msgstr ""
+
+#: ../includes/ig-pricing-table-post-type.php:18
+msgid "Search Pricing Table"
+msgstr ""
+
+#: ../includes/ig-pricing-table-post-type.php:19
+msgid "Not found"
+msgstr ""
+
+#: ../includes/ig-pricing-table-post-type.php:20
+msgid "Not found in Trash"
+msgstr ""
+
+#: ../includes/ig-pricing-table-post-type.php:30
+msgid "Simple and clean pricing table"
+msgstr ""
+
+#: ../includes/ig-pricing-table-settings.php:26
+msgid "Color scheme"
+msgstr ""
+
+#: ../includes/ig-pricing-table-settings.php:29
+msgid "Normal"
+msgstr ""
+
+#: ../includes/ig-pricing-table-settings.php:30
+msgid "Clean"
+msgstr ""
+
+#: ../includes/ig-pricing-table-settings.php:31
+msgid "Dark"
+msgstr ""
+
+#: ../includes/ig-pricing-table-settings.php:32
+msgid "Green"
+msgstr ""
+
+#: ../includes/ig-pricing-table-settings.php:33
+msgid "Blue"
+msgstr ""
+
+#: ../includes/ig-pricing-table-settings.php:34
+msgid "Aqua"
+msgstr ""
+
+#: ../welcome/welcome-screen.php:17
+msgid "Thank you to use "
+msgstr ""
+
+#: ../welcome/welcome-screen.php:18
+msgid ""
+"Here you can read the documentation and you can know how to get the most out "
+"of your new plugin."
+msgstr ""
+
+#: ../welcome/sections/welcome-footer.php:8
+msgid "Can i contribute?"
+msgstr ""
+
+#: ../welcome/sections/welcome-footer.php:9
+msgid "Help us to translate this plugin, send us your language file. Read how to "
+msgstr ""
+
+#: ../welcome/sections/welcome-footer.php:11
+msgid "make a translation"
+msgstr ""
+
+#: ../welcome/sections/welcome-footer.php:16
+msgid "Can't find a feature?"
+msgstr ""
+
+#: ../welcome/sections/welcome-footer.php:18
+msgid "Please suggest and vote on ideas / feature requests at the "
+msgstr ""
+
+#: ../welcome/sections/welcome-footer.php:20
+msgid "feedback forum"
+msgstr ""
+
+#: ../welcome/sections/welcome-footer.php:25
+msgid "IOGRAFICA THEMES"
+msgstr ""
+
+#: ../welcome/sections/welcome-footer.php:26
+msgid "Best Free and Premium WordPress Themes and Plugins"
+msgstr ""
+
+#: ../welcome/sections/welcome-footer.php:27
+msgid "Website"
+msgstr ""
+
+#: ../welcome/sections/welcome-footer.php:28
+msgid "Facebook"
+msgstr ""
+
+#: ../welcome/sections/welcome-footer.php:29
+msgid "Twitter"
+msgstr ""
+
+#: ../welcome/sections/welcome-footer.php:30
+msgid "Google Plus"
+msgstr ""
+
+#: ../welcome/sections/welcome-free-resources.php:7
+msgid "Free resources"
+msgstr ""
+
+#: ../welcome/sections/welcome-free-resources.php:8
+msgid "Take a look to our free resources of themes and plugins."
+msgstr ""
+
+#: ../welcome/sections/welcome-free-resources.php:12
+msgid "Free themes"
+msgstr ""
+
+#: ../welcome/sections/welcome-free-resources.php:34 ../welcome/sections/welcome-
+#: free-resources.php:69 ../welcome/sections/welcome-free-resources.php:102 ..
+#: /welcome/sections/welcome-free-resources.php:126
+msgid "An error has occurred"
+msgstr ""
+
+#: ../welcome/sections/welcome-free-resources.php:46
+msgid "installed"
+msgstr ""
+
+#: ../welcome/sections/welcome-free-resources.php:57
+msgid "Install Now"
+msgstr ""
+
+#: ../welcome/sections/welcome-free-resources.php:78
+msgid "Free plugins"
+msgstr ""
+
+#: ../welcome/sections/welcome-free-resources.php:115
+msgid "Download Now"
+msgstr ""
+
+#: ../welcome/sections/welcome-intro.php:10
+msgid "You can read detailed information on plugin features in the documentation."
+msgstr ""
+
+#: ../welcome/sections/welcome-intro.php:11
+msgid "View the documentation"
+msgstr ""
+
+#: ../welcome/sections/welcome-intro.php:16
+msgid "Settings"
+msgstr ""
+
+#: ../welcome/sections/welcome-intro.php:17
+msgid "Start to customize and setup your plugin in the settings page."
+msgstr ""
+
+#: ../welcome/sections/welcome-intro.php:18
+msgid "Go to settings"
+msgstr ""

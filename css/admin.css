@@ -1,0 +1,99 @@
+/*  SECTIONS  */
+.section {
+    clear: both;
+    padding: 0px;
+    margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+    display: block;
+    float:left;
+    margin: 1% 0 1% 1.6%;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+
+/*  GRID OF FOUR  */
+.span_4_of_4 {
+    width: 100%;
+}
+.span_3_of_4 {
+    width: 74.6%;
+}
+.span_2_of_4 {
+    width: 49.2%;
+}
+.span_1_of_4 {
+    width: 23.8%;
+}
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+    .col {  margin: 1% 0 1% 0%; }
+    .span_1_of_4, .span_2_of_4, .span_3_of_4, .span_4_of_4 { width: 100%; }
+}
+/*  PRICING TABLE POST TYPE */
+#ig_pricing_table_first-ig-pricing-table-first {
+}
+#ig_pricing_table_second-ig-pricing-table-second {
+}
+#ig_pricing_table_third-ig-pricing-table-third {
+}
+#ig_pricing_table_fourth-ig-pricing-table-fourth {
+}
+#ig_pricing_table_first-ig-pricing-table-first input[type=text],
+#ig_pricing_table_second-ig-pricing-table-second input[type=text],
+#ig_pricing_table_third-ig-pricing-table-third input[type=text],
+#ig_pricing_table_fourth-ig-pricing-table-fourth input[type=text],
+#ig_pricing_table_first-ig-pricing-table-first textarea,
+#ig_pricing_table_second-ig-pricing-table-second textarea,
+#ig_pricing_table_third-ig-pricing-table-third textarea,
+#ig_pricing_table_fourth-ig-pricing-table-fourth textarea{
+    width: 92%;
+}
+
+#ig_pricing_table_first-ig-pricing-table-first input[type=checkbox],
+#ig_pricing_table_second-ig-pricing-table-second input[type=checkbox],
+#ig_pricing_table_third-ig-pricing-table-third input[type=checkbox],
+#ig_pricing_table_fourth-ig-pricing-table-fourth input[type=checkbox]{
+
+}
+
+#ig_pricing_table_first-ig-pricing-table-first label,
+#ig_pricing_table_second-ig-pricing-table-second label,
+#ig_pricing_table_third-ig-pricing-table-third label,
+#ig_pricing_table_fourth-ig-pricing-table-fourth label {
+    font-weight: bold;
+    color: #0073AA;
+}
+#ig_pricing_table_first-ig-pricing-table-first .num,
+#ig_pricing_table_second-ig-pricing-table-second .num,
+#ig_pricing_table_third-ig-pricing-table-third .num,
+#ig_pricing_table_fourth-ig-pricing-table-fourth .num {
+    display: inline-block;
+    background:  #eee;
+    color: #0073aa;
+    padding: 0px 6px;
+    margin-right: 5px;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+}
+#ig_pricing_table_first-ig-pricing-table-first .title,
+#ig_pricing_table_second-ig-pricing-table-second .title,
+#ig_pricing_table_third-ig-pricing-table-third .title,
+#ig_pricing_table_fourth-ig-pricing-table-fourth .title {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.active,
+.featured {
+    padding: .5em 0;
+    color: #bbb;
+}

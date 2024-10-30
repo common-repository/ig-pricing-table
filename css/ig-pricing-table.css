@@ -1,0 +1,346 @@
+/*Price table*/
+ .ig-pricing-table {
+    clear: both;
+    text-align: center;
+    width: 100%;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.ig-pricing-table .pricing-table {
+    display:none;
+}
+/*Normal*/
+ .ig-pricing-table .pricing-table {
+}
+ .ig-pricing-table .title h3  {
+     background: #292929;
+     color:#fff;
+ }
+ .ig-pricing-table .description  {
+    color: #aaa;
+ }
+ .ig-pricing-table .price {
+    color:#fff;
+ }
+.ig-pricing-table .divider{
+    background-color:#eee;
+ }
+.ig-pricing-table .header{
+    background: #313131;
+ }
+.ig-pricing-table .features{
+    background: #fafafa;
+    border: 1px solid #dedede;
+    color:#666;
+ }
+.ig-pricing-table .button-label a {
+    background: #E75B4C;
+    color: #fff;
+}
+.ig-pricing-table .button-label a:hover {
+    background: #e23e39;
+    color: #fff;
+}
+/*Clean*/
+ .ig-pricing-table.clean .pricing-table {
+     border: 1px solid #dedede;
+}
+ .ig-pricing-table.clean .title h3  {
+     background:#f1f2f3;
+        color:#444;
+ }
+ .ig-pricing-table.clean .description  {
+    color: #888;
+ }
+ .ig-pricing-table.clean .price {
+    color:#444;
+ }
+.ig-pricing-table.clean .divider{
+    background-color:#eee;
+ }
+.ig-pricing-table.clean .header{
+    background:#f1f2f3;
+ }
+.ig-pricing-table.clean .features{
+    background: #fff;
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+    color:#666;
+ }
+.ig-pricing-table.clean .button-label a {
+    background: #f1f2f3;
+    color: #444;
+}
+.ig-pricing-table.clean .button-label a:hover {
+    background: #e6e7e8;
+    color: #666;
+}
+/*Dark*/
+ .ig-pricing-table.dark .pricing-table {
+     background:#2D2D2D;
+}
+ .ig-pricing-table.dark .title h3  {
+     background:#212121;
+    color:#fff;
+ }
+ .ig-pricing-table.dark .description  {
+    color: #aaa;
+ }
+ .ig-pricing-table.dark .price {
+    color:#fff;
+ }
+.ig-pricing-table.dark .divider{
+    background-color:#2a2a2a;
+ }
+.ig-pricing-table.dark .header{
+ }
+.ig-pricing-table.dark .features{
+    background: #313131;
+    border: 1px solid #2a2a2a;
+    color:#aaa;
+ }
+.ig-pricing-table.dark .button-label a {
+    background: #E75B4C;
+    color: #fff;
+}
+.ig-pricing-table.dark .button-label a:hover {
+    background: #e23e39;
+    color: #fff;
+}
+/*Green*/
+ .ig-pricing-table.green .pricing-table {
+     background:#fff;
+}
+.ig-pricing-table.green .header{
+    background: #a9c053;
+ }
+ .ig-pricing-table.green .title h3  {
+    background: #899c41;
+    color:#fff;
+ }
+ .ig-pricing-table.green .description  {
+    color: #f5ffd5;
+ }
+ .ig-pricing-table.green .price {
+    color:#fff;
+ }
+.ig-pricing-table.green .divider{
+    background-color:#eee;
+ }
+
+.ig-pricing-table.green .features{
+    background: #fff;
+    border:1px solid #ddd;
+    color:#666;
+ }
+.ig-pricing-table.green .button-label a {
+    background: #899c41;
+    color: #fff;
+}
+.ig-pricing-table.green .button-label a:hover {
+    background: #a9c053;
+    color: #fff;
+}
+/*Blue*/
+ .ig-pricing-table.blue .pricing-table {
+     background:#fff;
+}
+.ig-pricing-table.blue .header{
+    background: #3498db;
+ }
+ .ig-pricing-table.blue .title h3  {
+    background: #2980b9;
+    color:#fff;
+ }
+ .ig-pricing-table.blue .description  {
+    color: #c1dcef;
+ }
+ .ig-pricing-table.blue .price {
+    color:#fff;
+ }
+.ig-pricing-table.blue .divider{
+    background-color:#eee;
+ }
+
+.ig-pricing-table.blue .features{
+    background: #fff;
+    border:1px solid #ddd;
+    color:#666;
+ }
+.ig-pricing-table.blue .button-label a {
+    background: #2980b9;
+    color: #fff;
+}
+.ig-pricing-table.blue .button-label a:hover {
+    background: #3498db;
+    color: #fff;
+}
+/*Aqua*/
+ .ig-pricing-table.aqua .pricing-table {
+     background:#fff;
+}
+.ig-pricing-table.aqua .header{
+    background: #14bfcc;
+ }
+ .ig-pricing-table.aqua .title h3  {
+    background: #02aab7;
+    color:#fff;
+ }
+ .ig-pricing-table.aqua .description  {
+    color: #d2f1f4;
+ }
+ .ig-pricing-table.aqua .price {
+    color:#fff;
+ }
+.ig-pricing-table.aqua .divider{
+    background-color:#eee;
+ }
+
+.ig-pricing-table.aqua .features{
+    background: #fff;
+    border:1px solid #ddd;
+    color:#666;
+ }
+.ig-pricing-table.aqua .button-label a {
+    background:#02aab7;
+    color: #fff;
+}
+.ig-pricing-table.aqua .button-label a:hover {
+    background: #14bfcc;
+    color: #fff;
+}
+/*Pricing table*/
+ .ig-pricing-table .pricing-table.active{
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    border-radius: 4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius: 4px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    -webkit-box-shadow: 0px 2px 3px 0px rgba(50,50,50,0.15);
+    -moz-box-shadow: 0px 2px 3px 0px rgba(50,50,50,0.15);
+    box-shadow: 0px 2px 3px 0px rgba(50,50,50,0.15);
+    overflow: hidden;
+}
+ .ig-pricing-table .pricing-table.first.half{
+    margin-right: 1%;
+    width: 49%;
+    float: left;
+    margin-left: 0;
+}
+ .ig-pricing-table .pricing-table.first.half.third{
+    margin-right: 1%;
+    width: 32%;
+    float: left;
+}
+ .ig-pricing-table .pricing-table.first.half.third.fourth {
+    margin-right: 1%;
+    width: 24%;
+    float: left;
+}
+ .ig-pricing-table .pricing-table.second{
+    width: 49%;
+    float: left;
+}
+ .ig-pricing-table .pricing-table.second.third{
+    width: 32%;
+    float: left;
+    margin-right: 1%;
+}
+ .ig-pricing-table .pricing-table.third.fourth{
+    width: 24%;
+    float: left;
+    margin-right: 1%;
+}
+ .ig-pricing-table .pricing-table.third{
+    width: 32%;
+    float: left;
+}
+ .ig-pricing-table .pricing-table.fourth{
+    width: 24%;
+    float: left;
+}
+ .ig-pricing-table .title h3  {
+    font-size: 22px;
+    line-height: 1.7;
+    font-weight: normal;
+    margin: 0;
+    padding: 5px;
+ }
+ .ig-pricing-table .description  {
+    font-size:14px;
+    font-style: italic;
+    margin:0;
+    padding: 5px 10px;
+ }
+ .ig-pricing-table .price {
+    padding-bottom: 10px;
+    font-style: normal;
+ }
+.ig-pricing-table .divider{
+    margin: 8px 0;
+    padding: 0;
+ }
+.ig-pricing-table .header{
+ }
+.ig-pricing-table .features{
+    padding: 15px;
+    font-size: 14px;
+ }
+.ig-pricing-table .features .none{
+    color:#ccc;
+ }
+.ig-pricing-table.dark .features .none{
+    color:#5f5f5f;
+ }
+.ig-pricing-table .button-label a {
+    display: block;
+    margin: 0;
+    font-weight: 300;
+    font-size: 16px;
+    padding: 8px 25px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+}
+.ig-pricing .button-label a:hover {
+}
+.ig-pricing .button-label {
+}
+.ig-pricing-table .featured {
+    position: absolute;
+    background-color: #E75B4C;
+    color: #fff;
+    border-radius: 1px;
+    -moz-border-radius: 1px;
+    -webkit-border-radius: 1px;
+    display: block;
+    margin-top: -2px;
+    font-size: 13px;
+    padding: 1px 4px;
+    margin-left: 4px;
+}
+.ig-pricing-table.green .featured {
+    background-color: #a9c053;
+    color: #f5ffd5;
+}
+.ig-pricing-table.blue .featured {
+    background-color:#3498db;
+    color: #c1dcef;
+}
+.ig-pricing-table.aqua .featured {
+    background-color:#14bfcc;
+    color: #d2f1f4;
+}
+
+@media all and (max-width: 768px) {
+    .ig-pricing-table .pricing-table {
+    width: 100%!important;
+    display: inline-block;
+    }
+}
